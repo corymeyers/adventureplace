@@ -1,12 +1,19 @@
 $(document).ready(function(){
 
-  $('#allform form').submit(function(event) {
+  $('form').submit(function(event) {
     var personal1Input = $("input#personal1").val();
+
+
+
+
+
+
     $('.personal1').text(personal1Input);
     $('#vacation1show').show();
     $('#vacation2show').show();
     $('#vacation3show').show();
     $('#vacation4show').show();
+
 
       event.preventDefault();
     });
