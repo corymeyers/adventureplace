@@ -7,9 +7,9 @@ $(document).ready(function(){
     var q3Input = $("input#question3").val();
     var q4Input = $("input#question4").val();
     var q5Input = $("input#question5").val();
-    var score = ["q1Input" + "q2Input" + "q3Input" + "q4Input" + "q5Input"];
+    function getScore(q1Input, q1Input, q2Input, q3Input, q4Input, q5Input) {"q1Input"+"q1Input"+"q2Input"+"q3Input"+"q4Input"+"q5Input"}
+    var score = getScore
 
-  
 
     $('.personal1').text(personal1Input);
 
